@@ -35,10 +35,10 @@ do
     time_printer
     echo ""
     
-    echo -e "time bwa samse $index $k.sai  $k.fq.gz  > $k.bwa.sam";
+    echo -e "time bwa samse $index $k.sai  $k.fq.gz > $k.bwa.sam";
     time_printer
     #sleep 1
-    time bwa samse $index $k.sai  $k.fq.gz > $k.bwa.sam
+    time bwa samse $index $k.sai $k.fq.gz > $k.bwa.sam
     echo -e "$i bwa samse done\n~~~~~~~~~~~~~~~~~~~~~"
     time_printer
     echo ""
@@ -51,20 +51,27 @@ do
     time_printer
     echo ""
     
-    #if [ ! -f "$k.bwa.sam" ] ;then
-    #    echo "!!!!!!!!!!!!!!bwa is not complete!!!!!!!!!!!!!!"
-    #    exit 1
-    #fi
+    if [ ! -f "$k.bwa.sam" ] ;then
+        echo "!!!!!!!!!!!!!!bwa is not complete!!!!!!!!!!!!!!"
+        exit 1
+    fi
     filesize=`ls -al $k.bwa.sam | awk {'print $5'}`
     
     if [ $filesize >0 ] ;then
-        rm $k.bwa.sam
+        #rm $k.bwa.sam
     fi
 
     echo -e "samtools view -b -f 4 -@ 8 $k.bwa.bam > $k.bwa.unmapped.bam"
     time_printer
     samtools view -b -f 4 -@ 8 $k.bwa.bam > $k.bwa.unmapped.bam
     echo -e "$k.bwa.bam extracting unmapped reads done\n~~~~~~~~~~~~~~~~~~~~~"
+    time_printer
+    echo ""
+
+    echo -e "samtools bam2fq -@ 8 $k.bwa.unmapped.bam > $k.bwa.unmapped.fq"
+    time_printer
+    samtools bam2fq -@ 8 $k.bwa.unmapped.bam > $k.bwa.unmapped.fq
+    echo -e "$k.bwa.unmapped.bam extracting unmapped reads done\n~~~~~~~~~~~~~~~~~~~~~"
     time_printer
     echo ""
     
