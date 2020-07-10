@@ -1,0 +1,7 @@
+*.gz
+*.fq
+*.fa
+*.sai
+*.sam
+*.bam
+*.log

@@ -1,0 +1,383 @@
+time bwa aln /home/hudeneil/test_data/bwa-build-index/hg38 -t 8 V300023378_L02_14.fq.gz > V300023378_L02_14.sai 
+2020-07-08_05:38:58
+[bwa_aln] 17bp reads: max_diff = 2
+[bwa_aln] 38bp reads: max_diff = 3
+[bwa_aln] 64bp reads: max_diff = 4
+[bwa_aln] 93bp reads: max_diff = 5
+[bwa_aln] 124bp reads: max_diff = 6
+--
+[main] CMD: bwa aln -t 8 /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_14.fq.gz
+[main] Real time: 2422.151 sec; CPU: 16653.744 sec
+
+real	40m22.200s
+user	277m16.824s
+sys	0m16.961s
+bwa aln done
+--
+time bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_14.sai  V300023378_L02_14.fq.gz  > V300023378_L02_14.bwa.sam
+2020-07-08_06:19:20
+[bwa_aln_core] convert to sequence coordinate... 13.54 sec
+[bwa_aln_core] refine gapped alignments... 3.48 sec
+[bwa_aln_core] print alignments... 0.74 sec
+[bwa_aln_core] 262144 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 13.65 sec
+--
+[main] CMD: bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_14.sai V300023378_L02_14.fq.gz
+[main] Real time: 2536.589 sec; CPU: 2536.279 sec
+
+real	42m16.593s
+user	16m16.310s
+sys	25m59.970s
+bwa samse done
+--
+time bwa aln /home/hudeneil/test_data/bwa-build-index/hg38 -t 8 V300023378_L02_15.fq.gz > V300023378_L02_15.sai 
+2020-07-08_07:01:37
+[bwa_aln] 17bp reads: max_diff = 2
+[bwa_aln] 38bp reads: max_diff = 3
+[bwa_aln] 64bp reads: max_diff = 4
+[bwa_aln] 93bp reads: max_diff = 5
+[bwa_aln] 124bp reads: max_diff = 6
+--
+[main] CMD: bwa aln -t 8 /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_15.fq.gz
+[main] Real time: 1115.639 sec; CPU: 7590.115 sec
+
+real	18m35.688s
+user	126m21.145s
+sys	0m9.011s
+bwa aln done
+--
+time bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_15.sai  V300023378_L02_15.fq.gz  > V300023378_L02_15.bwa.sam
+2020-07-08_07:20:12
+[bwa_aln_core] convert to sequence coordinate... 8.55 sec
+[bwa_aln_core] refine gapped alignments... 1.19 sec
+[bwa_aln_core] print alignments... 0.36 sec
+[bwa_aln_core] 262144 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 8.55 sec
+--
+[main] CMD: bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_15.sai V300023378_L02_15.fq.gz
+[main] Real time: 1205.790 sec; CPU: 1205.446 sec
+
+real	20m5.794s
+user	7m43.084s
+sys	12m22.363s
+bwa samse done
+--
+time bwa aln /home/hudeneil/test_data/bwa-build-index/hg38 -t 8 V300023378_L02_16.fq.gz > V300023378_L02_16.sai 
+2020-07-08_07:40:18
+[bwa_aln] 17bp reads: max_diff = 2
+[bwa_aln] 38bp reads: max_diff = 3
+[bwa_aln] 64bp reads: max_diff = 4
+[bwa_aln] 93bp reads: max_diff = 5
+[bwa_aln] 124bp reads: max_diff = 6
+--
+[main] CMD: bwa aln -t 8 /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_16.fq.gz
+[main] Real time: 1196.141 sec; CPU: 8183.721 sec
+
+real	19m56.187s
+user	136m13.699s
+sys	0m10.066s
+bwa aln done
+--
+time bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_16.sai  V300023378_L02_16.fq.gz  > V300023378_L02_16.bwa.sam
+2020-07-08_08:00:14
+[bwa_aln_core] convert to sequence coordinate... 8.97 sec
+[bwa_aln_core] refine gapped alignments... 1.20 sec
+[bwa_aln_core] print alignments... 0.37 sec
+[bwa_aln_core] 262144 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 8.93 sec
+--
+[main] CMD: bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_16.sai V300023378_L02_16.fq.gz
+[main] Real time: 1317.801 sec; CPU: 1317.272 sec
+
+real	21m57.805s
+user	8m26.144s
+sys	13m31.129s
+bwa samse done
+--
+time bwa aln /home/hudeneil/test_data/bwa-build-index/hg38 -t 8 V300023378_L02_17.fq.gz > V300023378_L02_17.sai 
+2020-07-08_08:22:12
+[bwa_aln] 17bp reads: max_diff = 2
+[bwa_aln] 38bp reads: max_diff = 3
+[bwa_aln] 64bp reads: max_diff = 4
+[bwa_aln] 93bp reads: max_diff = 5
+[bwa_aln] 124bp reads: max_diff = 6
+--
+[main] CMD: bwa aln -t 8 /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_17.fq.gz
+[main] Real time: 936.946 sec; CPU: 6391.530 sec
+
+real	15m36.982s
+user	106m22.662s
+sys	0m8.902s
+bwa aln done
+--
+time bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_17.sai  V300023378_L02_17.fq.gz  > V300023378_L02_17.bwa.sam
+2020-07-08_08:37:49
+[bwa_aln_core] convert to sequence coordinate... 10.39 sec
+[bwa_aln_core] refine gapped alignments... 1.45 sec
+[bwa_aln_core] print alignments... 0.38 sec
+[bwa_aln_core] 262144 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 10.93 sec
+--
+[main] CMD: bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_17.sai V300023378_L02_17.fq.gz
+[main] Real time: 987.238 sec; CPU: 987.090 sec
+
+real	16m27.243s
+user	6m12.577s
+sys	10m14.514s
+bwa samse done
+--
+time bwa aln /home/hudeneil/test_data/bwa-build-index/hg38 -t 8 V300023378_L02_18.fq.gz > V300023378_L02_18.sai 
+2020-07-08_08:54:16
+[bwa_aln] 17bp reads: max_diff = 2
+[bwa_aln] 38bp reads: max_diff = 3
+[bwa_aln] 64bp reads: max_diff = 4
+[bwa_aln] 93bp reads: max_diff = 5
+[bwa_aln] 124bp reads: max_diff = 6
+--
+[main] CMD: bwa aln -t 8 /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_18.fq.gz
+[main] Real time: 2230.606 sec; CPU: 15232.813 sec
+
+real	37m10.637s
+user	253m39.099s
+sys	0m13.742s
+bwa aln done
+--
+time bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_18.sai  V300023378_L02_18.fq.gz  > V300023378_L02_18.bwa.sam
+2020-07-08_09:31:27
+[bwa_aln_core] convert to sequence coordinate... 9.07 sec
+[bwa_aln_core] refine gapped alignments... 1.21 sec
+[bwa_aln_core] print alignments... 0.35 sec
+[bwa_aln_core] 262144 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 10.47 sec
+--
+[main] CMD: bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_18.sai V300023378_L02_18.fq.gz
+[main] Real time: 1958.829 sec; CPU: 1958.035 sec
+
+real	32m38.833s
+user	12m12.462s
+sys	20m25.574s
+bwa samse done
+--
+time bwa aln /home/hudeneil/test_data/bwa-build-index/hg38 -t 8 V300023378_L02_19.fq.gz > V300023378_L02_19.sai 
+2020-07-08_10:04:06
+[bwa_aln] 17bp reads: max_diff = 2
+[bwa_aln] 38bp reads: max_diff = 3
+[bwa_aln] 64bp reads: max_diff = 4
+[bwa_aln] 93bp reads: max_diff = 5
+[bwa_aln] 124bp reads: max_diff = 6
+--
+[main] CMD: bwa aln -t 8 /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_19.fq.gz
+[main] Real time: 1276.619 sec; CPU: 8732.937 sec
+
+real	21m16.670s
+user	145m21.202s
+sys	0m11.785s
+bwa aln done
+--
+time bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_19.sai  V300023378_L02_19.fq.gz  > V300023378_L02_19.bwa.sam
+2020-07-08_10:25:23
+[bwa_aln_core] convert to sequence coordinate... 8.65 sec
+[bwa_aln_core] refine gapped alignments... 1.22 sec
+[bwa_aln_core] print alignments... 0.36 sec
+[bwa_aln_core] 262144 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 10.02 sec
+--
+[main] CMD: bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_19.sai V300023378_L02_19.fq.gz
+[main] Real time: 1404.313 sec; CPU: 1403.323 sec
+
+real	23m24.317s
+user	8m52.006s
+sys	14m31.318s
+bwa samse done
+--
+time bwa aln /home/hudeneil/test_data/bwa-build-index/hg38 -t 8 V300023378_L02_20.fq.gz > V300023378_L02_20.sai 
+2020-07-08_10:48:47
+[bwa_aln] 17bp reads: max_diff = 2
+[bwa_aln] 38bp reads: max_diff = 3
+[bwa_aln] 64bp reads: max_diff = 4
+[bwa_aln] 93bp reads: max_diff = 5
+[bwa_aln] 124bp reads: max_diff = 6
+--
+[main] CMD: bwa aln -t 8 /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_20.fq.gz
+[main] Real time: 986.996 sec; CPU: 6805.173 sec
+
+real	16m27.047s
+user	113m15.001s
+sys	0m10.222s
+bwa aln done
+--
+time bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_20.sai  V300023378_L02_20.fq.gz  > V300023378_L02_20.bwa.sam
+2020-07-08_11:05:14
+[bwa_aln_core] convert to sequence coordinate... 8.47 sec
+[bwa_aln_core] refine gapped alignments... 1.20 sec
+[bwa_aln_core] print alignments... 0.46 sec
+[bwa_aln_core] 262144 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 9.06 sec
+--
+[main] CMD: bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_20.sai V300023378_L02_20.fq.gz
+[main] Real time: 1040.058 sec; CPU: 1039.272 sec
+
+real	17m20.063s
+user	6m27.223s
+sys	10m52.049s
+bwa samse done
+--
+time bwa aln /home/hudeneil/test_data/bwa-build-index/hg38 -t 8 V300023378_L02_21.fq.gz > V300023378_L02_21.sai 
+2020-07-08_11:22:34
+[bwa_aln] 17bp reads: max_diff = 2
+[bwa_aln] 38bp reads: max_diff = 3
+[bwa_aln] 64bp reads: max_diff = 4
+[bwa_aln] 93bp reads: max_diff = 5
+[bwa_aln] 124bp reads: max_diff = 6
+--
+[main] CMD: bwa aln -t 8 /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_21.fq.gz
+[main] Real time: 1788.169 sec; CPU: 12188.997 sec
+
+real	29m48.226s
+user	202m54.712s
+sys	0m14.339s
+bwa aln done
+--
+time bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_21.sai  V300023378_L02_21.fq.gz  > V300023378_L02_21.bwa.sam
+2020-07-08_11:52:22
+[bwa_aln_core] convert to sequence coordinate... 11.23 sec
+[bwa_aln_core] refine gapped alignments... 1.55 sec
+[bwa_aln_core] print alignments... 0.50 sec
+[bwa_aln_core] 262144 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 9.26 sec
+--
+[main] CMD: bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_21.sai V300023378_L02_21.fq.gz
+[main] Real time: 2106.853 sec; CPU: 2106.597 sec
+
+real	35m6.858s
+user	13m21.276s
+sys	21m45.322s
+bwa samse done
+--
+time bwa aln /home/hudeneil/test_data/bwa-build-index/hg38 -t 8 V300023378_L02_22.fq.gz > V300023378_L02_22.sai 
+2020-07-08_12:27:29
+[bwa_aln] 17bp reads: max_diff = 2
+[bwa_aln] 38bp reads: max_diff = 3
+[bwa_aln] 64bp reads: max_diff = 4
+[bwa_aln] 93bp reads: max_diff = 5
+[bwa_aln] 124bp reads: max_diff = 6
+--
+[main] CMD: bwa aln -t 8 /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_22.fq.gz
+[main] Real time: 1543.432 sec; CPU: 10626.827 sec
+
+real	25m43.477s
+user	176m54.712s
+sys	0m12.157s
+bwa aln done
+--
+time bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_22.sai  V300023378_L02_22.fq.gz  > V300023378_L02_22.bwa.sam
+2020-07-08_12:53:13
+[bwa_aln_core] convert to sequence coordinate... 8.66 sec
+[bwa_aln_core] refine gapped alignments... 1.21 sec
+[bwa_aln_core] print alignments... 0.35 sec
+[bwa_aln_core] 262144 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 9.97 sec
+--
+[main] CMD: bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_22.sai V300023378_L02_22.fq.gz
+[main] Real time: 1740.901 sec; CPU: 1740.516 sec
+
+real	29m0.905s
+user	11m4.675s
+sys	17m55.843s
+bwa samse done
+--
+time bwa aln /home/hudeneil/test_data/bwa-build-index/hg38 -t 8 V300023378_L02_23.fq.gz > V300023378_L02_23.sai 
+2020-07-08_13:22:14
+[bwa_aln] 17bp reads: max_diff = 2
+[bwa_aln] 38bp reads: max_diff = 3
+[bwa_aln] 64bp reads: max_diff = 4
+[bwa_aln] 93bp reads: max_diff = 5
+[bwa_aln] 124bp reads: max_diff = 6
+--
+[main] CMD: bwa aln -t 8 /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_23.fq.gz
+[main] Real time: 1757.472 sec; CPU: 12325.824 sec
+
+real	29m17.521s
+user	205m14.412s
+sys	0m11.460s
+bwa aln done
+--
+time bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_23.sai  V300023378_L02_23.fq.gz  > V300023378_L02_23.bwa.sam
+2020-07-08_13:51:31
+[bwa_aln_core] convert to sequence coordinate... 9.86 sec
+[bwa_aln_core] refine gapped alignments... 1.37 sec
+[bwa_aln_core] print alignments... 0.35 sec
+[bwa_aln_core] 262144 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 10.34 sec
+--
+[main] CMD: bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_23.sai V300023378_L02_23.fq.gz
+[main] Real time: 1442.164 sec; CPU: 1441.603 sec
+
+real	24m2.168s
+user	9m2.683s
+sys	14m58.921s
+bwa samse done
+--
+time bwa aln /home/hudeneil/test_data/bwa-build-index/hg38 -t 8 V300023378_L02_24.fq.gz > V300023378_L02_24.sai 
+2020-07-08_14:15:33
+[bwa_aln] 17bp reads: max_diff = 2
+[bwa_aln] 38bp reads: max_diff = 3
+[bwa_aln] 64bp reads: max_diff = 4
+[bwa_aln] 93bp reads: max_diff = 5
+[bwa_aln] 124bp reads: max_diff = 6
+--
+[main] CMD: bwa aln -t 8 /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_24.fq.gz
+[main] Real time: 2026.458 sec; CPU: 14008.764 sec
+
+real	33m46.509s
+user	233m14.275s
+sys	0m14.537s
+bwa aln done
+--
+time bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_24.sai  V300023378_L02_24.fq.gz  > V300023378_L02_24.bwa.sam
+2020-07-08_14:49:20
+[bwa_aln_core] convert to sequence coordinate... 10.23 sec
+[bwa_aln_core] refine gapped alignments... 1.52 sec
+[bwa_aln_core] print alignments... 0.37 sec
+[bwa_aln_core] 262144 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 9.89 sec
+--
+[main] CMD: bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_24.sai V300023378_L02_24.fq.gz
+[main] Real time: 2101.337 sec; CPU: 2100.923 sec
+
+real	35m1.342s
+user	13m25.403s
+sys	21m35.521s
+bwa samse done
+--
+time bwa aln /home/hudeneil/test_data/bwa-build-index/hg38 -t 8 V300023378_L02_25.fq.gz > V300023378_L02_25.sai 
+2020-07-08_15:24:21
+[bwa_aln] 17bp reads: max_diff = 2
+[bwa_aln] 38bp reads: max_diff = 3
+[bwa_aln] 64bp reads: max_diff = 4
+[bwa_aln] 93bp reads: max_diff = 5
+[bwa_aln] 124bp reads: max_diff = 6
+--
+[main] CMD: bwa aln -t 8 /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_25.fq.gz
+[main] Real time: 1707.420 sec; CPU: 11793.823 sec
+
+real	28m27.476s
+user	196m21.226s
+sys	0m12.649s
+bwa aln done
+--
+time bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_25.sai  V300023378_L02_25.fq.gz  > V300023378_L02_25.bwa.sam
+2020-07-08_15:52:49
+[bwa_aln_core] convert to sequence coordinate... 10.71 sec
+[bwa_aln_core] refine gapped alignments... 1.52 sec
+[bwa_aln_core] print alignments... 0.50 sec
+[bwa_aln_core] 262144 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 11.23 sec
+--
+[main] CMD: bwa samse /home/hudeneil/test_data/bwa-build-index/hg38 V300023378_L02_25.sai V300023378_L02_25.fq.gz
+[main] Real time: 1627.429 sec; CPU: 1627.260 sec
+
+real	27m7.434s
+user	10m11.575s
+sys	16m55.686s
+bwa samse done
