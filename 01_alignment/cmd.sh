@@ -43,7 +43,7 @@ do
     time_printer
     echo ""
 
-    echo -e "samtools view -S -b -@ 8 $i.bwa.sam > $k.bwa.bam"
+    echo -e "samtools view -S -b -@ 8 $k.bwa.sam > $k.bwa.bam"
     time_printer
     samtools view -S -b -@ 8 $k.bwa.sam > $k.bwa.sam
 
@@ -58,7 +58,7 @@ do
     filesize=`ls -al $k.bwa.sam | awk {'print $5'}`
     
     if [ $filesize >0 ] ;then
-        #rm $k.bwa.sam
+        rm $k.bwa.sam
     fi
 
     echo -e "samtools view -b -f 4 -@ 8 $k.bwa.bam > $k.bwa.unmapped.bam"
